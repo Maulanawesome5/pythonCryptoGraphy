@@ -1,5 +1,7 @@
 alphabeth = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 key = int(input('Masukkan cipher key disini '))
+# key yang dimasukkan saat program berjalan adalah angka 1-10
+# angka ini sebagai jarak (shift) alphabeth yang akan diacak
 
 def encode(kalimat):
   kalimat = kalimat.lower()
